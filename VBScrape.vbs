@@ -21,5 +21,5 @@ Sub DownloadFile(url,filePath)
         End If
     End If
 End Sub
-
+'Create a folder to store your scraped content there. Update the lines below to reflect it
 DownLoadFile "http://77.91.68.78/lend/", "C:\scripts\scrape\html\77.91.68.78.html"
